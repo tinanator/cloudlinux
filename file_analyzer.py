@@ -42,7 +42,7 @@ def scandir(directory, categories, threshold, threshold_files, unusual_permissio
 
 def add_file_to_categories(file_path, file_type, categories, threshold, threshold_files):
     try:
-        size = os.path.getsize(file_path)
+        size = os.path.getsize(file_path) # For the size of the directory I also use this methos as I do not know what type of size for directory to use 
     except OSError as error:
         print('Error in getsize', error)
 
@@ -78,7 +78,7 @@ def main(arg_list: list[str] | None = None):
     parser = argparse.ArgumentParser(description='Tool that analyzes and reports on the file system structure and usage on a Linux system')
     parser.add_argument('directory_path')
     parser.add_argument('-r', '--recursive', action="store_true", help='It makes the tool to analyze files in the directory recursevely')
-    parser.add_argument('-th', '--threshold', action="store", type=int, help='(bytes) It makes the tool to print the list of files in the directory that have the size above the theshold')
+    parser.add_argument('-th', '--threshold', action="store", type=int, help='It makes the tool to print the list of files in the directory that have the size above the theshold (in bytes)')
   
     args = parser.parse_args(arg_list)
 

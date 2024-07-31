@@ -4,10 +4,11 @@ Using Python 3.9.6
 ### Objective
 Develop a command-line tool that analyzes and reports on the file system structure and usage on a Linux system.
 
-### To install the dependencies:
-Create virtual environment for python3 and activate
+### Create virtual environment for python3 and activate
 sudo apt install python3-venv
+
 python3 -m venv myvenv
+
 source myvenv/bin/activate
 
 ### Install dependencies:

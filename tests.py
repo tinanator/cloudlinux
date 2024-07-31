@@ -1,6 +1,8 @@
 import file_analyzer
 import unittest
 
+# For testing I created fake_dictionary with several types of files. I aslo wanted to use pyfakers to mock the file system, but I did not have enough time for this. Also I could have added more types of files and tests for exceptions or other unexpected situations.
+
 class Test(unittest.TestCase):    
     def test_without_parameters(self):
         print("Result of file_analyzer.analyze_file(directory = 'fake_directory', threshold = None, is_recursive = False)")

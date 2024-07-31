@@ -30,7 +30,7 @@ options:
   
   -r, --recursive - It makes the tool to analyze files in the directory recursevely
   
-  -th THRESHOLD, --threshold THRESHOLD - It makes the tool to print the list of files in the directory that have the size above the theshold (in bytes)
+  -th THRESHOLD, --threshold THRESHOLD - It makes the tool to print the list of files in the directory that have the size above the threshold (in bytes)
 
 
 ### To launch tests:

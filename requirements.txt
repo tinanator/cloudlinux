@@ -1,3 +1,2 @@
 python-magic
 PrettyTable
-pyfakefs

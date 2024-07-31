@@ -78,7 +78,7 @@ def main(arg_list: list[str] | None = None):
     parser = argparse.ArgumentParser(description='Tool that analyzes and reports on the file system structure and usage on a Linux system')
     parser.add_argument('directory_path')
     parser.add_argument('-r', '--recursive', action="store_true", help='It makes the tool to analyze files in the directory recursevely')
-    parser.add_argument('-th', '--threshold', action="store", type=int, help='It makes the tool to print the list of files in the directory that have the size above the theshold (in bytes)')
+    parser.add_argument('-th', '--threshold', action="store", type=int, help='It makes the tool to print the list of files in the directory that have the size above the threshold (in bytes)')
   
     args = parser.parse_args(arg_list)
 

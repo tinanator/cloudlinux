@@ -1,7 +1,7 @@
 Using Python 3.9.6
 
 # Test task for the python position: File System Analyzer
-Objective
+### Objective
 Develop a command-line tool that analyzes and reports on the file system structure and usage on a Linux system.
 
 ### To install the dependencies:
